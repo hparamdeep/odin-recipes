@@ -1,0 +1,34 @@
+body {
+    width: 500px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: #FF7F11;
+    padding: 10px;
+    color: #262626;
+}
+
+.navlinks {
+    display: flex;
+    gap: 20px;
+    background-color: lightblue;
+}
+
+.description, .ingredients, .steps {
+    line-height: 40px;
+}
+
+.description {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background-color: lightblue;
+}
